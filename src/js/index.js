@@ -1875,6 +1875,13 @@
             },
         },
         {
+            name: "BIDX - BIDX",
+            onSelect: function() {
+                network = bitcoinjs.bitcoin.networks.bidx;
+                setHdCoin(0);
+            },
+        },
+        {
             name: "BLK - BlackCoin",
             onSelect: function() {
                 network = bitcoinjs.bitcoin.networks.blackcoin;
