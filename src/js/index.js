@@ -2665,6 +2665,14 @@
             },
         },
         {
+            name: "ALG - ALG",
+            onSelect: function() {
+                network = bitcoinjs.bitcoin.networks.alg;
+                setHdCoin(119);
+            },
+        },
+        
+        {
             name: "POA - Poa",
             segwitAvailable: false,
             onSelect: function() {

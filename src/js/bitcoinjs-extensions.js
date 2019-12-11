@@ -315,6 +315,16 @@ bitcoinjs.bitcoin.networks.pivx = {
   scriptHash: 0x0d,
   wif: 0xd4
 };
+bitcoinjs.bitcoin.networks.alg = {
+  messagePrefix: 'unused',
+  bip32: {
+    public: 0x0488b21e,
+    private: 0x0488ade4
+  },
+  pubKeyHash: 0x19,
+  scriptHash: 0x06,
+  wif: 0x2e
+};
 
 bitcoinjs.bitcoin.networks.mota = {
   messagePrefix:'unused',
